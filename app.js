@@ -25,6 +25,19 @@ app.post('/summary', (req, res) =>
         ratings: req.body.ratings
     }
 
+    // const err = [];
+
+    // if(book.title.trim() === "")
+    // {
+    //     err.push('must have a title');
+    // }
+
+    // if(err.length !== 0)
+    // {
+    //     // return err;
+    //     res.render('summary', err);
+    // }
+
     console.log(book);
     books.push(book);
 

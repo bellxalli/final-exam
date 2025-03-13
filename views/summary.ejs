@@ -4,8 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Summary</title>
+        <link rel="stylesheet" href="styles/home_styles.css">
+
     </head>
     <body>
         <h1>Book Wishist Summary!</h1>
+
+        <% for(let i = 0; i < books.length; i++) { %>
+            <h3>Book <%= i+1 %>:</h3>
+            <p>Title: <%= books[i].title %></p>
+            <p>Comments: <%= books[i].comments %></p>
+            <p>Ratings: <%= books[i].ratings %></p>
+            <hr>
+        <% } %>     
+
+        <button onclick="history.back()">Add Another Book!</button>
     </body>
 </html>

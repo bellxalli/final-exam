@@ -1,0 +1,33 @@
+body
+{
+    background-color:rgb(178, 205, 255);
+}
+
+h1
+{
+    color:darkblue;
+}
+
+fieldset
+{
+    border-style: solid;
+    border-color:aliceblue;
+}
+
+legend, p
+{
+    font-family: sans-serif;
+    color:rgb(75, 1, 75);
+    font-weight: bold;
+}
+
+button
+{
+    background-color: darkmagenta;
+    color:aliceblue;
+    border-style: solid;
+    border-color: darkmagenta;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
