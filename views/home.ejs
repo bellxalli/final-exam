@@ -7,6 +7,35 @@
         <link rel="stylesheet" href="styles/home_styles.css">
     </head>
     <body>
-        
+        <h1>Book Wishlist</h1>
+
+        <form action="/summary" method="post">
+            <fieldset>
+                <legend>Title:</legend>
+                <label>
+                    <input type="text" name="title">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments:</legend>
+                <label>
+                    <textarea name="comments"></textarea>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ratings:</legend>
+                <select name="ratings">
+                    <option>0 stars</option>
+                    <option>1 stars</option>
+                    <option>2 stars</option>
+                    <option>3 stars</option>
+                    <option>4 stars</option>
+                    <option>5 stars</option>
+                </select>
+            </fieldset>
+            <button type="submit">Submit!</button>
+        </form>
     </body>
 </html>
